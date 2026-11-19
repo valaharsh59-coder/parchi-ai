@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/parchi-ai/sw.js', { scope: '/parchi-ai/' })})}
